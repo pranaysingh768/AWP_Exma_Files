@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>2nd</title>
+<script src="2.js"></script>
+</head>
+
+<style>
+
+    #img{
+
+        background-image: url("c2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+</style>
+<body>
+
+
+<nav class="navbar navbar-expand bg-dark justify-content-between sticky-top">
+    <div class="nav navbar-nav">
+        <a class="nav-item nav-link active text-white" href="#" style="font-size: 1.2rem;">Website<span class="text-white" style="font-weight: bolder;font-size: 1.3rem;">Name</span></a>
+       
+    </div>
+
+    <div class="d-flex">
+        <a class="nav-item nav-link text-white" href="#"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+        <a class="nav-item nav-link text-white" href="#"><i class="fa fa-phone" aria-hidden="true"></i> About us</a>
+        <a class="nav-item nav-link text-white" href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i> Login</a>
+    </div>
+</nav>
+
+
+<div class="container-fluid ">
+
+        <div class="row justify-content-center jumbotron mt-5">
+            <div class="col-sm-3 bg-primary shadow-lg rounded" id="img" style="height: 50vh;"></div>
+
+            <div class="col-sm-3 bg-light shadow-lg rounded" style="height: 50vh;">
+
+                <div class="row mt-4">
+
+                    <div class="col-sm-12 d-flex justify-content-center text-primary" style="font-size: 1.7rem;font-weight: bolder;">
+
+                        Login Form
+                    </div>
+                </div>
+
+
+                <div class="row mt-4">
+                    <div class="col-sm-12">
+
+                        <div class="form-group">
+                          
+                          <input type="text" class="form-control form-control-sm"  id="user" placeholder="Username">
+                            <span class="text-danger" id="s1" style="font-size: 0.9rem;"></span>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="row mt-2">
+                    <div class="col-sm-12">
+                        
+                        <div class="form-group">
+                          
+                          <input type="password" class="form-control form-control-sm "  id="pwd" placeholder="Password">
+                            <span class="text-danger" id="s2" style="font-size: 0.9rem;"></span>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+                <div class="row">
+
+                    <div class="col-sm-12">
+
+                        <button type="button"  id="bt" class="btn btn-primary btn-sm btn-block mt-2" style="letter-spacing: 0.5rem;" onclick="return validation()" >SUBMIT</button>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+    <div class="row justify-content-center" style="margin-top: -2.2rem;">
+
+        <div class="col-sm-6  p-0" id="box">
+
+            <div class="row justify-content-between bg-light shadow mb-3 border p-1" id="cloneBox" style="visibility: hidden;">
+
+                <div class="col-sm-3" style="font-weight: bolder;">username</div>
+
+                <div class="col-sm-3" style="font-weight: bolder;">password</div>
+            </div>
+
+
+           
+            
+        </div>
+
+
+        
+    </div>
+    
+
+
+    
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+</body>
+</html>
